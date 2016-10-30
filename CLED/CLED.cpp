@@ -27,7 +27,7 @@ CLED::CLED(int port) {
 /**
  * set method for m_port
  * @param port int muss überprüft werden, ob es sich um einen gültigen Wert handelt.
- * 		gültiger Wertebereich: 0 <= port <= 7
+ * 		gültiger Wertebereich: 0 <= port <= 29
  *		liegt der Wert aushalb des Wertebereichs wird er auf -1 gesetzt.
  * @return void
  */

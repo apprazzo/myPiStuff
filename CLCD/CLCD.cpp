@@ -142,7 +142,7 @@ void CLCD::writeLine(int line, string text) {
 		}
 			lcdPuts(m_lcd, text.c_str());
 	} else {
-		cerr << "illegal argument for the string. string is too long." << endl;
+		cerr << "illegal argument for the string(" << text << "). string is too long." << endl;
 	}
 }
 
